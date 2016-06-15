@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="normal_day">#ff999999</color>
+    <color name="selected_day_background">#ff6600</color>
+    <color name="selected_day_text">#fff2f2f2</color>
+    <color name="selected_day_contains_background">#fec09b</color>
+
+    <color name="calendar_line_color">#777777</color>
+    <color name="calendar_oval_color">#555555</color>
+    <color name="calendar_formerly_day">#666666</color>
+    <color name="week_text_color">#888888</color>
+    <color name="grid_line_color">#bababa</color>
+    <color name="calendar_backgroud">#ed000000</color>
+    <color name="guidance_background">#cc000000</color>
+    <color name="blue_0000CC">#0000CC</color>
+    <color name="red_FF0000">#FF0000</color>
+    <color name="white_FFFFFF">#ffffff</color>
+    <color name="black_333333">#333333</color>
+    <color name="color_c1c1c1">#ffc1c1c1</color>
+</resources>

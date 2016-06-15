@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:calendar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.andexert.calendarlistview.library.DayPickerView
+        android:id="@+id/pickerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        calendar:colorMonthName="@color/black_333333"
+        calendar:colorWeek="@color/black_333333"
+        calendar:enablePreviousDay="false"
+        calendar:selectedDayRadius="15dp"
+        android:layout_marginBottom="120dp"
+        calendar:textSizeDayName="16sp"
+        calendar:textSizeMonth="16sp" />
+
+
+    <RelativeLayout
+        android:id="@+id/fiter_confirm_layout"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="@drawable/date_filter_bg"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/button"
+            style="@style/button_orange"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:text="选择完毕" />
+
+        <TextView
+            android:id="@+id/filter_how_many_days_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/button"
+            android:layout_centerHorizontal="true"
+            android:textColor="#555555"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/filter_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/filter_how_many_days_tv"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="请选择退房日期"
+            android:textColor="#ff6600"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_above="@id/filter_date_tv"
+             />
+    </RelativeLayout>
+
+</merge>
